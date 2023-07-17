@@ -68,11 +68,19 @@
                 <td>{{ task.title }}</td>
                 <td>{{ task.description }}</td>
                 <td>
-                  <button type="button" class="btn btn-danger" @click="deleteTask(task._id)">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    @click="deleteTask(task._id)"
+                  >
                     Delete
                   </button>
                   &nbsp;
-                  <button type="button" class="btn btn-warning" @click="editTask(task._id)">
+                  <button
+                    type="button"
+                    class="btn btn-warning"
+                    @click="editTask(task._id)"
+                  >
                     Edit
                   </button>
                 </td>
